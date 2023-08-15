@@ -1,0 +1,5 @@
+export const PAGE_MAIN = 'Главная'
+export const PAGE_ABAUT = 'О нас'
+export const PAGE_GOODS ='Товары'
+export const PAGE_PROJECTS = 'Проекты'
+export const PAGE_CONTACTS = 'Контакты'
