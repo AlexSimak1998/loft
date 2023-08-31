@@ -126,7 +126,7 @@ export default {
           img: 'https://259506.selcdn.ru/sites-static/site459985/558dcc91-77ae-4274-af51-b01ded192a3e/558dcc91-77ae-4274-af51-b01ded192a3e-804787.jpeg',
           title: 'Cтелажи',
           id: 2,
-          route: '/TheRacks'
+          route: '/TheShelving'
         },
         {
           img: 'https://ir.ozone.ru/s3/multimedia-p/c1000/6425570137.jpg',

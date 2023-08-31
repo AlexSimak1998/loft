@@ -1,35 +1,41 @@
 <template>
   <div class="text-center font-bold">
-    <h1>Столы</h1>
+    <h1>Стелажи</h1>
     <div class="bisnes">
       <div
         class="biznesImg"
-        @click="openImage('https://i.ibb.co/Q8Xwp6M/SL0001.jpg')">
-        <img src="@/assets/img/ImgTables/1.jpg" alt="" class="img" />
+        @click="openImage('https://i.ibb.co/4WYyBmC/ST0001.jpg')">
+        <img src="@/assets/img/ImgShelving/1.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/KhYkgcN/SL0006.jpg')">
-        <img src="@/assets/img/ImgTables/2.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/svqysmv/ST0010.jpg')">
+        <img src="@/assets/img/ImgShelving/6.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/WnhqcCs/SL0007.jpg')">
-        <img src="@/assets/img/ImgTables/4.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/k3Drq6v/ST0007.jpg')">
+        <img src="@/assets/img/ImgShelving/3.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/hFqCDqg/SL0008.jpg')">
-        <img src="@/assets/img/ImgTables/5.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/34SRXc9/ST0008.jpg')">
+        <img src="@/assets/img/ImgShelving/4.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/z4vsN5J/SL0009.jpg')">
-        <img src="@/assets/img/ImgTables/6.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/KbSGT4y/ST0009.jpg')">
+        <img src="@/assets/img/ImgShelving/5.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/Wvk1bkH/SL0010.jpg')">
-        <img src="@/assets/img/ImgTables/7.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/QpRZ1ZT/ST0004.jpg')">
+        <img src="@/assets/img/ImgShelving/2.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/cFQS4xt/SL0012.jpg')">
-        <img src="@/assets/img/ImgTables/8.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/Vvg0Xjt/ST0011.jpg')">
+        <img src="@/assets/img/ImgShelving/7.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/bgrHqFw/9.jpg')">
-        <img src="@/assets/img/ImgTables/9.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/jG8mVmn/ST0012.jpg')">
+        <img src="@/assets/img/ImgShelving/8.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('https://i.ibb.co/1JVB6S7/10.jpg')">
-        <img src="@/assets/img/ImgTables/10.jpg" alt="" class="img" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/X47K6XP/ST0013.jpg')">
+        <img src="@/assets/img/ImgShelving/9.jpg" alt="" class="img" />
+      </div>
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/F44CN8V/ST0014.jpg')">
+        <img src="@/assets/img/ImgShelving/10.jpg" alt="" class="img" />
+      </div>
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/b2Q2Pn0/ST0016.jpg')">
+        <img src="@/assets/img/ImgShelving/11.jpg" alt="" class="img" />
       </div>
      
     </div>

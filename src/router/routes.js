@@ -6,7 +6,7 @@ import TheTables from '@/components/pages/MainElemtnts/Goods/TheTables.vue';
 import GoodsBissnes from '@/components/pages/MainElemtnts/Goods/GoodsBissnes.vue';
 import TheForHome from "../components/pages/MainElemtnts/Goods/TheFofHome.vue"
 import TheChairs from "../components/pages/MainElemtnts/Goods/TheChairs.vue"
-import TheRacks from "../components/pages/MainElemtnts/Goods/TheRacks.vue"
+import TheShelving from "../components/pages/MainElemtnts/Goods/TheShelving.vue"
 import TheShoe from "../components/pages/MainElemtnts/Goods/TheShoe.vue"
 import TheShelves from "../components/pages/MainElemtnts/Goods/TheShelves.vue"
 import TheChestofdrawers from "../components/pages/MainElemtnts/Goods/TheChestofdrawers.vue"
@@ -62,9 +62,9 @@ export default {
         name: 'Стулья',
         hidden: true,
     },
-    TheRacks: {
-        path: '/TheRacks',
-        component: TheRacks,
+    TheShelving: {
+        path: '/TheShelving',
+        component: TheShelving,
         name: 'Стелажи',
         hidden: true,
     },

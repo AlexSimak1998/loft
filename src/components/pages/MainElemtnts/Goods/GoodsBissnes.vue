@@ -4,23 +4,26 @@
     <div class="bisnes">
       <div
         class="biznesImg"
-        @click="
-          openImage(
-            'https://img.freepik.com/free-photo/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.jpg?size=626&ext=jpg&ga=GA1.2.601144753.1689060487&semt=sph'
-          )
-        "
+        @click="openImage('https://i.ibb.co/C82vhyk/photo-2023-08-14-10-50-17.jpg')"
       >
-        <img src="@/assets/img/imgBissnes/1.jpg" alt="" />
+        <img src="@/assets/img/imgBissnes/1.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('@/assets/img/imgBissnes/2.jpg')">
-        <img src="@/assets/img/imgBissnes/2.jpg" alt="" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/5YtzkLk/photo-2023-08-14-10-50-19.jpg')">
+        <img src="@/assets/img/imgBissnes/2.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('@/assets/img/imgBissnes/3.jpg')">
-        <img src="@/assets/img/imgBissnes/3.jpg" alt="" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/yYFkYC0/photo-2023-08-14-10-50-21.jpg')">
+        <img src="@/assets/img/imgBissnes/3.jpg" alt="" class="img" />
       </div>
-      <div class="biznesImg" @click="openImage('@/assets/img/imgBissnes/7.jpg')">
-        <img src="@/assets/img/imgBissnes/7.jpg" alt="" />
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/jDXC9Qk/photo-2023-08-14-10-50-25.jpg')">
+        <img src="@/assets/img/imgBissnes/7.jpg" alt="" class="img" />
       </div>
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/C7pVZZS/photo-2023-08-14-10-50-22.jpg')">
+        <img src="@/assets/img/imgBissnes/4.jpg" alt="" class="img" />
+      </div>
+      <div class="biznesImg" @click="openImage('https://i.ibb.co/SPmrqcC/photo-2023-08-14-10-50-24.jpg')">
+        <img src="@/assets/img/imgBissnes/6.jpg" alt="" class="img" />
+      </div>
+     
     </div>
   </div>
   <div v-if="showModal" class="modal" @click="showModal = false">
@@ -29,13 +32,17 @@
   <MyFooter />
 </template>
 <style scoped>
+.img {
+  width: 100%;
+  height: 300px;
+}
 .modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.915);
   display: flex;
   justify-content: center;
   align-items: center;
